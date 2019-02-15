@@ -30,6 +30,7 @@ double mean_diff(vector<double> a, vector<double> b){
         val += abs(a[i]-b[i])/a[i];
     }
     val /= (double)a.size();
+    return val;
 }
 
 pair<vector<double>, double> prune_KDE(KDTree kd, 

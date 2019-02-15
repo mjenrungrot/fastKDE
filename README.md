@@ -4,3 +4,4 @@ We introduce fast methods for nonparametric kernel density estimation (KDE), lev
 
 # TODO Lists
 - [ ] Run the existing code to replicate the results.
+- - [x] Run the code on `data0.txt` with params `./experiments data0.txt out 2`
